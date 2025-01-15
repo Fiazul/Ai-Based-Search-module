@@ -1,6 +1,13 @@
 import sqlite3
 
 
+"""
+Some of the sites contains webp images. which Lamma vision refuced to read. i tried use pillow to convert them to jpg.
+But it was not working. So i had to change the urls. i used this url multiple time for testing.
+
+"""
+
+
 def update_specific_url(old_url, new_url):
     conn = sqlite3.connect("database.db")
     cursor = conn.cursor()

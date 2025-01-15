@@ -1,6 +1,12 @@
 import os
 import sqlite3
 
+"""
+I collected some images from random sites using selenium. Just for demo images. 
+So there were times when i got error in the middle of the process. So i had to erase the data and start again.
+I created different table for it. it wont effect the other tables :D
+"""
+
 
 def delete_image_paths():
     conn = sqlite3.connect("database.db")
