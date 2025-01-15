@@ -128,6 +128,7 @@ This project was inspired by a real-life scenario where finding the right gift o
 ```
 
 ### Response Body
+- I didn't collect images for all URLs because the process of collecting and applying Llama vision for classification is time-consuming.The number of images are just too many.  Additionally, sending too many requests in a short period is not a good idea.
 ![Image 1](https://raw.githubusercontent.com/Fiazul/Ai-Based-Search-module/main/output.png)
 
 ![Image 2](https://raw.githubusercontent.com/Fiazul/Ai-Based-Search-module/main/example.png)
