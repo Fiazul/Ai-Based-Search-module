@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Module</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            padding-top: 20px; /* Added some top padding for space */
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+            position: fixed; /* Keep search bar fixed */
+            top: 20px;
+            width: 100%;
+            background-color: #fff;
+            padding: 10px 0;
+            z-index: 10;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .search-box {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        .search-button:hover {
+            background-color: #0056b3;
+        }
+        .results-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            margin-top: 100px; /* Add margin to avoid overlap with fixed search bar */
+        }
+        .result-item {
+            margin: 10px;
+            text-align: center;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px; /* Set a fixed width for consistency */
+        }
+        .result-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .result-item p {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #333;
+            white-space: pre-wrap; /* Preserve whitespace and wrap text */
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Search Module</h1>
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-box" placeholder="Enter your search query...">
+        <button class="search-button" onclick="fetchImages()">Search</button>
+    </div>
+    <div id="imageContainer" class="results-container">
+        <!-- Images will be dynamically populated here -->
+    </div>
+
+    <script>
+        async function fetchImages() {
+            const query = document.getElementById("searchInput").value;
+            const imageContainer = document.getElementById("imageContainer");
+            imageContainer.innerHTML = "<p>Loading...</p>";
+
+            try {
+                console.log("Sending request to server...");
+                const response = await fetch('http://127.0.0.1:8000/search/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ input_type: query })
+                });
+
+                console.log("Response received:", response);
+                const data = await response.json();
+                console.log("Response data:", data);
+
+                if (data.results.length === 0) {
+                    imageContainer.innerHTML = "<p>No images found for the query.</p>";
+                    return;
+                }
+
+                imageContainer.innerHTML = ""; 
+                data.results.forEach(item => {
+                    const url = item.url;
+                    const images = item.images;
+                    const details = item.details[0];
+                
+                    console.log("Processing item:", item);
+                
+                    const resultItem = document.createElement("div");
+                    resultItem.classList.add("result-item");
+                
+                    const card = document.createElement("div");
+                    card.classList.add("card");
+                
+                    const link = document.createElement("a");
+                    link.href = url;
+                    link.target = "_blank";
+                    link.textContent = url;
+                
+                    const description = document.createElement("p");
+                    description.textContent = details;
+                
+                    card.appendChild(link);
+                    card.appendChild(description);
+                
+                    if (images.length > 0) {
+                        const imagePath = images[0]; // Get the first image only
+                        console.log("Processing image path:", imagePath);
+                        const img = document.createElement("img");
+                        img.src = imagePath;
+                        img.alt = url;
+                        card.appendChild(img);
+                    } else {
+                        const noImageText = document.createElement("p");
+                        noImageText.textContent = "No images available";
+                        card.appendChild(noImageText);
+                    }
+                
+                    resultItem.appendChild(card);
+                    imageContainer.appendChild(resultItem);
+                });
+            } catch (error) {
+                console.error("Error fetching images:", error);
+                imageContainer.innerHTML = "<p>Error fetching images. Please try again later.</p>";
+            }
+        }
+    </script>
+</body>
+</html>

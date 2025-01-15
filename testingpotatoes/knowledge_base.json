@@ -1,0 +1,527 @@
+[
+    {
+        "name": "Roku Streaming Stick 4K",
+        "category": [
+            "Computers & Laptops",
+            "Photography"
+        ],
+        "description": "Enhanced with advanced features for seamless operation.",
+        "price": 387.79
+    },
+    {
+        "name": "Kindle Paperwhite",
+        "category": [
+            "Audio Devices",
+            "Photography"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 409.49
+    },
+    {
+        "name": "Fitbit Charge 5",
+        "category": [
+            "Gaming"
+        ],
+        "description": "Offers incredible value with top-notch features.",
+        "price": 1315.56
+    },
+    {
+        "name": "Nintendo Switch",
+        "category": [
+            "Home Appliances",
+            "Audio Devices"
+        ],
+        "description": "Designed for professionals and enthusiasts alike.",
+        "price": 1814.94
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "category": [
+            "Audio Devices",
+            "Kitchen Essentials"
+        ],
+        "description": "Enhanced with advanced features for seamless operation.",
+        "price": 100.69
+    },
+    {
+        "name": "Lego Creator Expert Set",
+        "category": [
+            "Home Appliances"
+        ],
+        "description": "High-quality performance and cutting-edge features.",
+        "price": 1455.65
+    },
+    {
+        "name": "Nintendo Switch",
+        "category": [
+            "Smart Home"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 1885.84
+    },
+    {
+        "name": "Corsair HS80 Wireless Headset",
+        "category": [
+            "Computers & Laptops"
+        ],
+        "description": "High-quality performance and cutting-edge features.",
+        "price": 433.43
+    },
+    {
+        "name": "Oculus Quest 2 VR",
+        "category": [
+            "Kitchen Essentials"
+        ],
+        "description": "High-quality performance and cutting-edge features.",
+        "price": 757.55
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "category": [
+            "Home Appliances",
+            "Computers & Laptops",
+            "Smart Home"
+        ],
+        "description": "Built to last with premium materials and engineering.",
+        "price": 1677.91
+    },
+    {
+        "name": "Lego Creator Expert Set",
+        "category": [
+            "Kitchen Essentials",
+            "Gaming",
+            "Home Appliances"
+        ],
+        "description": "Lightweight, durable, and packed with functionality.",
+        "price": 570.03
+    },
+    {
+        "name": "Samsung Galaxy Watch 5",
+        "category": [
+            "Kitchen Essentials",
+            "Gaming"
+        ],
+        "description": "Designed for professionals and enthusiasts alike.",
+        "price": 1537.57
+    },
+    {
+        "name": "LG OLED C2 TV",
+        "category": [
+            "Audio Devices",
+            "Smart Home"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 927.32
+    },
+    {
+        "name": "Ring Video Doorbell 4",
+        "category": [
+            "Home Appliances",
+            "Computers & Laptops",
+            "Wearables"
+        ],
+        "description": "Ideal for everyday use and special occasions.",
+        "price": 1053.9
+    },
+    {
+        "name": "Amazon Echo Dot",
+        "category": [
+            "Wearables",
+            "Health & Fitness",
+            "Audio Devices"
+        ],
+        "description": "State-of-the-art technology with a sleek design.",
+        "price": 1959.36
+    },
+    {
+        "name": "Roku Streaming Stick 4K",
+        "category": [
+            "Photography",
+            "Kitchen Essentials"
+        ],
+        "description": "State-of-the-art technology with a sleek design.",
+        "price": 133.05
+    },
+    {
+        "name": "Canon EOS R5 Camera",
+        "category": [
+            "Home Appliances"
+        ],
+        "description": "Built to last with premium materials and engineering.",
+        "price": 1538.69
+    },
+    {
+        "name": "Samsung Galaxy S22",
+        "category": [
+            "Electronics",
+            "Home Appliances",
+            "Kitchen Essentials"
+        ],
+        "description": "Perfect for home, work, or travel needs.",
+        "price": 1409.1
+    },
+    {
+        "name": "Apple iPhone 14",
+        "category": [
+            "Audio Devices",
+            "Computers & Laptops"
+        ],
+        "description": "Lightweight, durable, and packed with functionality.",
+        "price": 1459.03
+    },
+    {
+        "name": "Google Nest Thermostat",
+        "category": [
+            "Home Appliances"
+        ],
+        "description": "Designed for professionals and enthusiasts alike.",
+        "price": 1805.13
+    },
+    {
+        "name": "Google Nest Thermostat",
+        "category": [
+            "Home Appliances",
+            "Gaming"
+        ],
+        "description": "Built to last with premium materials and engineering.",
+        "price": 993.67
+    },
+    {
+        "name": "Amazon Echo Dot",
+        "category": [
+            "Photography",
+            "Health & Fitness"
+        ],
+        "description": "Built to last with premium materials and engineering.",
+        "price": 385.52
+    },
+    {
+        "name": "Oculus Quest 2 VR",
+        "category": [
+            "Gaming"
+        ],
+        "description": "Built to last with premium materials and engineering.",
+        "price": 337.79
+    },
+    {
+        "name": "Asus ROG Zephyrus",
+        "category": [
+            "Health & Fitness",
+            "Wearables",
+            "Computers & Laptops"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 1821.39
+    },
+    {
+        "name": "Yeti Rambler Tumbler",
+        "category": [
+            "Audio Devices",
+            "Photography"
+        ],
+        "description": "Offers incredible value with top-notch features.",
+        "price": 616.04
+    },
+    {
+        "name": "GoPro Hero 11",
+        "category": [
+            "Photography"
+        ],
+        "description": "Designed for professionals and enthusiasts alike.",
+        "price": 443.11
+    },
+    {
+        "name": "Corsair HS80 Wireless Headset",
+        "category": [
+            "Computers & Laptops"
+        ],
+        "description": "Designed for professionals and enthusiasts alike.",
+        "price": 1682.57
+    },
+    {
+        "name": "Kindle Paperwhite",
+        "category": [
+            "Wearables"
+        ],
+        "description": "State-of-the-art technology with a sleek design.",
+        "price": 70.79
+    },
+    {
+        "name": "Beats Studio Buds",
+        "category": [
+            "Gaming"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 111.43
+    },
+    {
+        "name": "Jabra Elite 85t Earbuds",
+        "category": [
+            "Computers & Laptops"
+        ],
+        "description": "State-of-the-art technology with a sleek design.",
+        "price": 373.13
+    },
+    {
+        "name": "Alienware Aurora Gaming PC",
+        "category": [
+            "Home Appliances"
+        ],
+        "description": "Designed for professionals and enthusiasts alike.",
+        "price": 1654.66
+    },
+    {
+        "name": "Microsoft Surface Pro 9",
+        "category": [
+            "Kitchen Essentials",
+            "Photography"
+        ],
+        "description": "Ideal for everyday use and special occasions.",
+        "price": 1562.26
+    },
+    {
+        "name": "Instant Pot Duo Plus",
+        "category": [
+            "Computers & Laptops",
+            "Wearables",
+            "Audio Devices"
+        ],
+        "description": "Ideal for everyday use and special occasions.",
+        "price": 381.46
+    },
+    {
+        "name": "Samsung T7 Portable SSD",
+        "category": [
+            "Electronics"
+        ],
+        "description": "Perfect for home, work, or travel needs.",
+        "price": 318.36
+    },
+    {
+        "name": "Crucial P3 SSD",
+        "category": [
+            "Photography"
+        ],
+        "description": "Ideal for everyday use and special occasions.",
+        "price": 1709.57
+    },
+    {
+        "name": "Roku Streaming Stick 4K",
+        "category": [
+            "Computers & Laptops"
+        ],
+        "description": "Perfect for home, work, or travel needs.",
+        "price": 1106.27
+    },
+    {
+        "name": "Corsair K95 RGB Keyboard",
+        "category": [
+            "Smart Home",
+            "Audio Devices",
+            "Kitchen Essentials"
+        ],
+        "description": "Built to last with premium materials and engineering.",
+        "price": 791.33
+    },
+    {
+        "name": "Eufy RoboVac Cleaner",
+        "category": [
+            "Gaming",
+            "Electronics"
+        ],
+        "description": "Enhanced with advanced features for seamless operation.",
+        "price": 1608.3
+    },
+    {
+        "name": "SteelSeries Apex Pro Keyboard",
+        "category": [
+            "Health & Fitness",
+            "Photography",
+            "Computers & Laptops"
+        ],
+        "description": "State-of-the-art technology with a sleek design.",
+        "price": 1213.19
+    },
+    {
+        "name": "Lego Creator Expert Set",
+        "category": [
+            "Home Appliances",
+            "Gaming"
+        ],
+        "description": "High-quality performance and cutting-edge features.",
+        "price": 1351.02
+    },
+    {
+        "name": "Ring Video Doorbell 4",
+        "category": [
+            "Gaming"
+        ],
+        "description": "Enhanced with advanced features for seamless operation.",
+        "price": 1904.21
+    },
+    {
+        "name": "KitchenAid Stand Mixer",
+        "category": [
+            "Gaming"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 790.46
+    },
+    {
+        "name": "Logitech MX Master 3 Mouse",
+        "category": [
+            "Computers & Laptops",
+            "Photography",
+            "Home Appliances"
+        ],
+        "description": "High-quality performance and cutting-edge features.",
+        "price": 1404.13
+    },
+    {
+        "name": "Tile Mate Tracker",
+        "category": [
+            "Smart Home"
+        ],
+        "description": "Offers incredible value with top-notch features.",
+        "price": 680.4
+    },
+    {
+        "name": "Blue Yeti USB Microphone",
+        "category": [
+            "Health & Fitness",
+            "Wearables"
+        ],
+        "description": "Combines style, efficiency, and powerful performance.",
+        "price": 1188.06
+    },
+    {
+        "name": "KitchenAid Stand Mixer",
+        "category": [
+            "Health & Fitness",
+            "Electronics",
+            "Audio Devices"
+        ],
+        "description": "Perfect for home, work, or travel needs.",
+        "price": 1946.16
+    },
+    {
+        "name": "Apple iPhone 14",
+        "category": [
+            "Kitchen Essentials",
+            "Audio Devices",
+            "Gaming"
+        ],
+        "description": "Enhanced with advanced features for seamless operation.",
+        "price": 471.39
+    },
+    {
+        "name": "Eufy RoboVac Cleaner",
+        "category": [
+            "Electronics",
+            "Audio Devices",
+            "Gaming"
+        ],
+        "description": "Perfect for home, work, or travel needs.",
+        "price": 705.35
+    },
+    {
+        "name": "Kindle Paperwhite",
+        "category": [
+            "Computers & Laptops",
+            "Photography",
+            "Kitchen Essentials"
+        ],
+        "description": "High-quality performance and cutting-edge features.",
+        "price": 1706.55
+    },
+    {
+        "name": "Microsoft Surface Pro 9",
+        "category": [
+            "Kitchen Essentials",
+            "Wearables"
+        ],
+        "description": "Offers incredible value with top-notch features.",
+        "price": 152.75
+    },
+    {
+        "name": "iPhone 13 Pro",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "The latest iPhone with advanced camera features and A15 Bionic chip.",
+        "price": 999.99
+    },
+    {
+        "name": "Samsung Galaxy S21 Ultra",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "High-end Android phone with a powerful camera and performance.",
+        "price": 1199.99
+    },
+    {
+        "name": "Google Pixel 6",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "Google's flagship phone with pure Android experience and excellent camera.",
+        "price": 699.99
+    },
+    {
+        "name": "OnePlus 9 Pro",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "Flagship phone with fast performance and Hasselblad camera.",
+        "price": 969.99
+    },
+    {
+        "name": "Xiaomi Mi 11",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "High-performance phone with a great display and camera.",
+        "price": 749.99
+    },
+    {
+        "name": "Sony Xperia 1 III",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "Premium phone with 4K display and advanced camera features.",
+        "price": 1299.99
+    },
+    {
+        "name": "Huawei P40 Pro",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "High-end phone with excellent camera and performance.",
+        "price": 899.99
+    },
+    {
+        "name": "Oppo Find X3 Pro",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "Flagship phone with innovative camera and design.",
+        "price": 1149.99
+    },
+    {
+        "name": "Nokia 8.3 5G",
+        "category": [
+            "Smartphone"
+        ],
+        "description": "5G phone with solid performance and clean Android experience.",
+        "price": 649.99
+    },
+    {
+        "name": "Asus ROG Phone 5",
+        "category": [
+            "Smartphone",
+            "Gaming"
+        ],
+        "description": "Gaming phone with high refresh rate display and powerful performance.",
+        "price": 999.99
+    }
+]
