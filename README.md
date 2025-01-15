@@ -115,6 +115,23 @@ This project was inspired by a real-life scenario where finding the right gift o
 - **Image Filtering**: Passes images through the `colander.py` script to classify and save product images.
 - **Database Insertion**: Saves valid images and their associated URLs to the database.
 
+---
+## Example Request and Response
+
+## API Example
+
+### Request Body
+```json
+{
+  "input_type": "I need a lightweight laptop"
+}
+```
+
+### Response Body
+![Image 1](https://raw.githubusercontent.com/Fiazul/Ai-Based-Search-module/main/output.png)
+
+![Image 2](https://raw.githubusercontent.com/Fiazul/Ai-Based-Search-module/main/example.png)
+---
 
 
 ## Technical Details

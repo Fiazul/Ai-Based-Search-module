@@ -21,8 +21,3 @@ def search_knowledge_base(prompt, top_k=5):
 
     results = [original_data[idx] for idx in indices[0]]
     return results
-
-
-prompt = "I need a photography device. which can be useful or useless, price must be cheap. I need it in black color"
-results = search_knowledge_base(prompt)
-print("Relevant results:", results)
