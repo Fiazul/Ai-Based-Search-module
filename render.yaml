@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-based-search-module
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python runserver.py"
+    envVars:
+      - key: DATABASE_URL
+        value: "sqlite:///database.db"
