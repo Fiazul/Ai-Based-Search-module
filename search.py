@@ -1,6 +1,4 @@
-from fastapi.templating import Jinja2Templates
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from q_to_k import AIKeywordExtractor
 from typing import List, Dict
@@ -26,12 +24,9 @@ app.add_middleware(
 )
 
 
-templates = Jinja2Templates(directory="templates")
-
-
-@app.get("/", response_class=HTMLResponse)
-async def render_index(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+@app.get("/")
+async def index():
+    return FileResponse("index.html")
 
 
 def create_database():
