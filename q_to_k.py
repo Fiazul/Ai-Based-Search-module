@@ -1,10 +1,10 @@
 from groq import Groq
 import os
-
+# from config import GROQ_API_KEY #to import from config .py
 import json
 import re
 from embeddings import search_knowledge_base
-GROQ_API_KEY = os
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
 
 
